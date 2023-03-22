@@ -1,0 +1,8 @@
+- name: Create a vm in either Azure or AWS
+  hosts: localhost
+  gather_facts: true
+  vars:
+   ansible_connection: local
+  tasks:
+   - include_role:
+       name: ansible_aws_create_full_infra
