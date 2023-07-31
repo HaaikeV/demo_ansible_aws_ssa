@@ -5,4 +5,4 @@
    ansible_connection: local
   tasks:
    - include_role:
-       name: ansible_aws_create_full_infra
+       name: ansible_azure_create_full_infra
